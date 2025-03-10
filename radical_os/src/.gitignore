@@ -1,0 +1,31 @@
+# Ignore build artifacts
+/build/
+*.img
+*.bin
+*.iso
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore NASM listing/debug files
+*.lst
+*.map
+*.dbg
+
+# Ignore logs and temporary files
+*.log
+*.lock
+
+# Ignore core dumps and debugging files
+*.core
+*.o
+
+# Ignore QEMU-related files
+qemu-*
+qemu.log
+
+# Ignore Makefile backup files
+Makefile~
