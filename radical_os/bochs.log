@@ -1,0 +1,89 @@
+00000000000[i] Bochs x86 Emulator 2.7
+00000000000[i]   Built from SVN snapshot on August  1, 2021
+00000000000[i]   Timestamp: Sun Aug  1 10:07:00 CEST 2021
+00000000000[i] System configuration
+00000000000[i]   processors: 1 (cores=1, HT threads=1)
+00000000000[i]   A20 line support: yes
+00000000000[i] IPS is set to 10000000
+00000000000[i] CPU configuration
+00000000000[i]   SMP support: yes, quantum=16
+00000000000[i]   level: 6
+00000000000[i]   APIC support: xapic
+00000000000[i]   FPU support: yes
+00000000000[i]   MMX support: yes
+00000000000[i]   3dnow! support: yes
+00000000000[i]   SEP support: yes
+00000000000[i]   SIMD support: sse2
+00000000000[i]   XSAVE support: no 
+00000000000[i]   AES support: no
+00000000000[i]   SHA support: no
+00000000000[i]   MOVBE support: no
+00000000000[i]   ADX support: no
+00000000000[i]   x86-64 support: yes
+00000000000[i]   1G paging support: no
+00000000000[i]   MWAIT support: yes
+00000000000[i]   VMX support: 1
+00000000000[i]   SVM support: no
+00000000000[i] Optimization configuration
+00000000000[i]   RepeatSpeedups support: yes
+00000000000[i]   Fast function calls: yes
+00000000000[i]   Handlers Chaining speedups: no
+00000000000[i] Devices configuration
+00000000000[i]   PCI support: i440FX i430FX i440BX
+00000000000[i]   Network devices support: NE2000 E1000
+00000000000[i]   Sound support: SB16 ES1370
+00000000000[i]   USB support: UHCI OHCI EHCI xHCI
+00000000000[i]   VGA extension support: vbe cirrus voodoo
+00000000000[i] Disk image modules
+00000000000[i]   flat concat sparse dll growing undoable volatile vpc
+00000000000[i]   vvfat vmware4 vmware3 vbox
+00000000000[i] Networking modules
+00000000000[i]   null tuntap vnet socket linux vde slirp
+00000000000[i] Sound drivers
+00000000000[i]   dummy alsa oss file sdl
+00000000000[i] Pluggable USB devices
+00000000000[i]   floppy printer hub disk cdrom mouse tablet keypad
+00000000000[i]   keyboard
+00000000000[i] allocated memory at 0x7f81fc9db010. after alignment, vector=0x7f81fc9dc000
+00000000000[i] 128.00MB
+00000000000[i] mem block size = 0x00020000, blocks=1024
+00000000000[i] rom at 0xffff0000/65536 ('/usr/share/bochs/BIOS-bochs-legacy')
+00000000000[i] WARNING: 3DNow! is not implemented yet !
+00000000000[i] will paste characters every 100 iodev timer ticks
+00000000000[i] lt_dlhandle is 0x55bd866d8140
+00000000000[i] loaded plugin libbx_soundalsa.so
+00000000000[i] lt_dlhandle is 0x55bd86709ed0
+00000000000[i] loaded plugin libbx_pci.so
+00000000000[i] lt_dlhandle is 0x55bd866d5ef0
+00000000000[i] loaded plugin libbx_pci2isa.so
+00000000000[i] lt_dlhandle is 0x55bd86df4df0
+00000000000[i] loaded plugin libbx_usb_uhci.so
+00000000000[i] lt_dlhandle is 0x55bd86e0ee30
+00000000000[i] loaded plugin libbx_acpi.so
+00000000000[i] lt_dlhandle is 0x55bd86e0f980
+00000000000[i] loaded plugin libbx_hpet.so
+00000000000[i] lt_dlhandle is 0x55bd86e107d0
+00000000000[i] loaded plugin libbx_cmos.so
+00000000000[i] lt_dlhandle is 0x55bd86e10fb0
+00000000000[i] loaded plugin libbx_dma.so
+00000000000[i] lt_dlhandle is 0x55bd86e117c0
+00000000000[i] loaded plugin libbx_pic.so
+00000000000[i] lt_dlhandle is 0x55bd86e11f90
+00000000000[i] loaded plugin libbx_pit.so
+00000000000[i] lt_dlhandle is 0x55bd86e12850
+00000000000[i] loaded plugin libbx_vga.so
+00000000000[i] lt_dlhandle is 0x55bd86e33e90
+00000000000[i] loaded plugin libbx_floppy.so
+00000000000[i] lt_dlhandle is 0x55bd86e34a40
+00000000000[i] loaded plugin libbx_ioapic.so
+00000000000[i] lt_dlhandle is 0x55bd86e35250
+00000000000[i] loaded plugin libbx_keyboard.so
+00000000000[i] lt_dlhandle is 0x55bd86e35b60
+00000000000[i] loaded plugin libbx_harddrv.so
+00000000000[i] lt_dlhandle is 0x55bd86e37c40
+00000000000[i] loaded plugin libbx_pci_ide.so
+00000000000[i] init_dev of 'pci' plugin device by virtual method
+00000000000[i] i440FX PMC present at device 0, function 0
+00000000000[i] init_dev of 'pci2isa' plugin device by virtual method
+00000000000[i] PIIX3 PCI-to-ISA bridge present at device 1, function 0
+00000000000[i] init_dev of 'cmos' plugin device by virtual method
