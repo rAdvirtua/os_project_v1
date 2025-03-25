@@ -3,7 +3,9 @@ ASM?= nasm
 CC16 = /usr/bin/watcom/binl/wcc
 LD16 = /usr/bin/watcom/binl/wlink
 
-SOURCES = 
+SOURCES = $(wildcard *.c)
+SOURCES_ASM = $(wildcard *.c)
+OBJECTS_C = 	$(patsusbt %.c, $(BUILD_DIR))
 
 
 .PHONY: all stage2 clean
