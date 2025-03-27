@@ -1,0 +1,2 @@
+/home/anurag/os_project_v1/radical_os/src/bootloader/stage2/main.c(3): Warning! W303: Parameter 'bootDrive' has been defined, but not referenced
+/home/anurag/os_project_v1/radical_os/src/bootloader/stage2/main.c(5): Error! E1118: ***FATAL*** No such file or directory
