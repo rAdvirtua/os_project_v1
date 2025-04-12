@@ -1,3 +1,3 @@
-***RADICAL OS***
+               ***RADICAL OS***
 
-This Operating System is in development
+This Operating System is currently in development
